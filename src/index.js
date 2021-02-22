@@ -1,12 +1,12 @@
 import { StrictMode } from "react";
 import ReactDOM from "react-dom";
+import Controller from "./Controller";
 
-import App from "./App";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <StrictMode>
-    <App />
+    <Controller />
   </StrictMode>,
   rootElement
 );
