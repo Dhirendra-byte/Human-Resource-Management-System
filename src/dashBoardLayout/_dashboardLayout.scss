@@ -1,0 +1,17 @@
+.dashboard-layout{
+     display: flex;
+     height: 100vh;
+     padding: 16px;
+     background:#303841;
+    .side-nav-bar{
+      flex-basis: 20%;
+      max-width: 250px;
+      min-width: 200px;
+      background:#303841;
+      }
+    .main-container{
+      flex-basis: 80%;
+      background:#eeeeee;
+      border-radius: 25px;
+     }
+}
