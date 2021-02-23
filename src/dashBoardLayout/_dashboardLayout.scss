@@ -14,4 +14,43 @@
       background:#eeeeee;
       border-radius: 25px;
      }
+    .logo-container{
+      color: #ffc40c;
+      text-align: center;
+    }
+    .nav-container{
+      padding-left: 16px;
+      padding-top: 16px;
+      a{
+        text-decoration: none;
+      }
+       .nav-icon{
+         display: flex;
+         align-items: center;
+         color: white;
+         padding: 8px;
+         margin-top: 32px;
+         cursor: pointer;
+         transition: 0.2s ease-in-out;
+         .svg-icon{
+          width: 16px;
+          height: 16px;
+        }
+         .item-name{
+            margin-left: 16px;
+            font-weight: 800;
+            cursor: pointer;
+         }
+         &:hover{
+            color:#ffc40c;
+            border-right: 4px solid #ffc40c;
+         }
+         &.selected{
+          color:#ffc40c;
+          border-right: 4px solid #ffc40c;
+         }
+       }
+    }
+    
+
 }
